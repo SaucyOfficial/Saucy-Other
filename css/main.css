@@ -13,6 +13,11 @@
 
 }
 
+#embeds body, body #embeds {
+	overflow : hidden;
+}
+
+
 
 @font-face {
 	font-family: 'Futura';
