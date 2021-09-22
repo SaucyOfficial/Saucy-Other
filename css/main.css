@@ -10,8 +10,15 @@
     top: 45px;
     content-visibility: auto;
 	
-
+body {
+	overflow: hidden;
 }
+}
+
+#embeds body, body #embeds {
+	overflow : hidden;
+}
+
 
 
 @font-face {
