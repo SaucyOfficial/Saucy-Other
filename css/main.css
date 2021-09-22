@@ -22,7 +22,6 @@
 	
 }
 
-
 @font-face {
 	font-family: "Roobert";
 	src: url("/_includes/Roobert.woff2");
@@ -58,19 +57,13 @@ h1 {
 	height: 0;
   }
 
-* {
-	-webkit-overflow-scrolling: touch;
-}
-
-
 #confetti {
 	height: 100vh;
 	width: 100%;
+	display: block;
+	position: relative;
 	z-index: 5;
 	pointer-events: none;
-	display: block;
-
-
 }	
 
 html {
