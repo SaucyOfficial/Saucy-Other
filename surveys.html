@@ -1,0 +1,35 @@
+<head><link href="/css/main.css" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1"> 
+<meta name="title" content="Surveys">
+<meta name="description" content="Surveys you can take to support Saucy.">
+<meta name="keywords" content="surveys, survey">
+<link rel="manifest" href="/manifest.json">
+</head>
+
+<script src="/js/custom.js"></script>
+<script defer>$(function(){var a=$("[data-include]");$.each(a,function(){var a="/"+$(this).data("include")+".html";$(this).load(a)})}); </script>
+<div data-include="main"></div>
+  
+<script src="https://storage.googleapis.com/pollfish_production/sdk/webplugin/pollfish.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+
+<script>
+var pollfishConfig = {
+  api_key: "870f75c6-4ce7-4950-b2f6-19b2d1a29667",
+  debug: false,
+    offerwall: true,
+  indicator_position: "TOP_LEFT",
+  ready: pollfishReady
+};
+
+function pollfishReady(){
+Pollfish.showIndicator();
+}
+
+</script>
+
+<script>
+
+</script>
