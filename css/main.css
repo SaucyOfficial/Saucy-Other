@@ -66,9 +66,9 @@ h1 {
 #confetti {
 	height: 100vh;
 	width: 100%;
-	display: block;
-	position: absolute;
 	z-index: 5;
+	pointer-events: none;
+
 }	
 
 html {
